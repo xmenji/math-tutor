@@ -1,14 +1,10 @@
 # math-tutor
-Programming Challenge from "Starting out with C++" Chapter 3
-
-Write a program that can be used as a math tutor for a young student. The program should display two 
-random numbers to be added, such as: 
+This is a modification of Programming Challenge 15 from Chapter 3. Write a program that can 
+be used as a math tutor for a young student. The program should display two random numbers
+that are to be added, such as: 
   247
  +129
  -----
- The program should then pause while the student works on the problem. When the student is ready to check
- the answer, he or she can press a key and the program will display the correct solution. 
-   247
-  +129
-  -----
-   376 
+ The program should wait for the student to enter the answer. If the answer is correct, a message of 
+ congratulaions should be printed. If the answer is incorrect, a message should be printed
+ showing the correct answer.
