@@ -1,14 +1,7 @@
 # math-tutor
-Programming Challenge from "Starting out with C++" Chapter 3
+This program started in Programming Challenge 15 of chapter 3, and was modified in Programming Challenge 9 of Chapter 4.
+Modify the program again so it displays a menu allowing the user to select an addition, subtraction, multiplication or 
+division problem. The final selection on the menu should let the user quit the program. After the user has finished the math 
+problem, the program should display the menu again. This process is repeated until the user chooses to quit the program.
 
-Write a program that can be used as a math tutor for a young student. The program should display two 
-random numbers to be added, such as: 
-  247
- +129
- -----
- The program should then pause while the student works on the problem. When the student is ready to check
- the answer, he or she can press a key and the program will display the correct solution. 
-   247
-  +129
-  -----
-   376 
+Input Validation: If the user selects an item not on the menu, display an error message and display the menu again.
